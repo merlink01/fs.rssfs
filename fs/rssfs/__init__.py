@@ -2,9 +2,9 @@
 from __future__ import absolute_import
 #~ from __future__ import unicode_literals
 
-from .rssfs import RSSFS#, ExchangeCalFS, ExchangeContactFS, ExchangeNoteFS, ExchangeTaskFS
+from .rssfs import RSSFS
 #~ from .opener import ExchangeOpener
-__all__ = ['RSSFS']#,'ExchangeCalFS','ExchangeContactFS','ExchangeNoteFS','ExchangeTaskFS']
+__all__ = ['RSSFS']
 
 __license__ = ""
 __copyright__ = ""
