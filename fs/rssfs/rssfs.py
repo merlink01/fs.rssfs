@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import io
 import feedparser
 # ~ import urllib2
-from urllib.request import urlopen
+from six.moves.urllib.request import urlopen
 from .. import errors
 from ..base import FS
 from ..info import Info
