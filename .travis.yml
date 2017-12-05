@@ -16,7 +16,8 @@ matrix:
   - python: pypy
   - python: pypy-5.3.1
 
-
+before_install:
+- pip install -U setuptools wheel
 
 install:
 - pip install .[dev,test]
